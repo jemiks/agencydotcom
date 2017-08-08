@@ -250,7 +250,7 @@ header {
 }
 
 /*პორტფოლიო*/
-.content-portfolio{
+.content-portfolio {
     margin-top: 87px;
 }
 
@@ -276,12 +276,38 @@ header {
 }
 
 .text-service {
-  display: flex;
+    display: flex;
     align-items: center;
 }
 
-.text-service p{
+.text-service p {
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
+}
+
+.portfolio-images {
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.upper-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.down-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 133px;
+
+}
+
+.portfolio-images img {
+    width: 273px;
+    height: 273px;
 }
